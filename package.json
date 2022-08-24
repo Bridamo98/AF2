@@ -2,7 +2,7 @@
   "name": "anti-fraude",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://antifraude-back.herokuapp.com/",
+  "proxy": "https://antifraude-back.herokuapp.com",
   "dependencies": {
     "-": "0.0.1",
     "@emotion/react": "^11.7.1",
