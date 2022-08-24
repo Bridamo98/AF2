@@ -1,0 +1,110 @@
+{
+  "en": {
+    "options": {
+      "Not applicable.": 0.0,
+      "Not done.": 1.0,
+      "It is done partially and informally.": 3.0,
+      "It is done informally in a total way.": 5.0,
+      "It is formally done and documented.": 7.0,
+      "Documented and subject to periodic review.": 9.0
+    },
+    "critera": [
+      "5.1.1) A set of information security policies must be defined, approved by management, published and communicated to employees and relevant external parties.",
+      "5.1.2) Information security policies should be reviewed at planned intervals, or if significant changes occur, to ensure their continuing suitability, adequacy and effectiveness.",
+      "6.1.1) All information security responsibilities must be defined and assigned.",
+      "6.1.2) Conflicting duties and areas of responsibility shall be separated to reduce the chances of unauthorized or unintentional modification or misuse of organizational assets.",
+      "6.1.3) Appropriate contacts must be maintained with the relevant authorities.",
+      "6.1.4) Appropriate contacts should be maintained with special interest groups or other forums and professional associations specializing in security.",
+      "6.1.5) Information security should be addressed in project management, regardless of the type of project.",
+      "6.2.1) A policy and supporting security measures must be adopted to manage the risks introduced by the use of mobile devices.",
+      "6.2.2) A policy and support security measures must be implemented to protect the information that is accessed, processed or stored in the places where telework is carried out.",
+      "7.1.1) Background checks on all job applicants must be conducted in accordance with applicable laws, regulations and ethics and must be commensurate with business requirements, the classification of information to be will have access and the perceived risks.",
+      "7.1.2) Contractual agreements with employees and contractors must establish their responsibilities and those of the organization regarding information security.",
+      "7.2.1) Management must require all employees and contractors to apply information security in accordance with the policies and procedures established by the organization.",
+      "7.2.2) All employees of the organization and where relevant, contractors, should receive appropriate awareness education and training and regular updates on the organization's policies and procedures relevant to their position.",
+      "7.2.3) There must be a formal process, which must be communicated, to take action against employees who have committed an information security breach.",
+      "7.3.1) Information security responsibilities and duties that remain valid after termination or change of employment should be defined, communicated to the employee, contractors and enforced."
+    ],
+    "conclusions": {
+      "According to the responses, your company DOES NOT ACCOMPLISH the requirements.": 6.99,
+      "According to the responses, your company ACCOMPLISH the requirements.": 9.0
+    },
+    "sections": [
+      [
+        "5) Information Security Policies.",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "6) Information Security Organization.",
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        "7) Security of human resources.",
+        [
+          9,
+          14
+        ]
+      ]
+    ]
+  },
+  "es": {
+    "options": {
+      "No aplica.": 0.0,
+      "No se realiza.": 1.0,
+      "Se realiza parcial e informalmente.": 3.0,
+      "Se realiza informalmente en forma total.": 5.0,
+      "Se realiza formalmente y está documentado.": 7.0,
+      "Documentado y sujeto a revisión periódica.": 9.0
+    },
+    "criteria": [
+      "5.1.1) Se debe definir un conjunto de políticas para la seguridad de la información, aprobada por la dirección, publicada y comunicada a los empleados y a las partes externas pertinentes.",
+      "5.1.2) Las políticas para la seguridad de la información se deben revisar a intervalos planificados, o si ocurren cambios significativos para asegurar su conveniencia, adecuación y eficacia continuas.",
+      "6.1.1) Se deben definir y asignar todas las responsabilidades de la seguridad de la información.",
+      "6.1.2) Los deberes y áreas de responsabilidad en conflicto se deben separar para reducir las posibilidades de modificación no autorizada o no intencional, o el uso indebido de los activos de la organización.",
+      "6.1.3) Se deben mantener contactos apropiados con las autoridades pertinentes.",
+      "6.1.4) Se deben mantener contactos apropiados con grupos de interés especial u otros foros y asociaciones profesionales especializadas en seguridad.",
+      "6.1.5) La seguridad de la información se debe tratar en la gestión de proyectos, independientemente del tipo de proyecto.",
+      "6.2.1) Se debe adoptar una política y unas medidas de seguridad de soporte para gestionar los riesgos introducidos por el uso de dispositivos móviles.",
+      "6.2.2) Se deben implementar una política y unas medidas de seguridad de soporte, para proteger la información a la que se tiene acceso, que es procesada o almacenada en los lugares en los que se realiza el teletrabajo.",
+      "7.1.1) Las verificaciones de los antecedentes de todos los candidatos a un empleo se deben llevar a cabo de acuerdo con las leyes, reglamentaciones y ética pertinentes y deben ser proporcionales a los requisitos del negocio, a la clasificación de la información a que se va a tener acceso y a los riesgos percibidos.",
+      "7.1.2) Los acuerdos contractuales con empleados y contratistas deben establecer sus responsabilidades y las de la organización en cuanto a la seguridad de la información.",
+      "7.2.1) La dirección debe exigir a todos los empleados y contratistas la aplicación de la seguridad de la información de acuerdo con las políticas y procedimientos establecidos por la organización.",
+      "7.2.2) Todos los empleados de la organización y en donde sea pertinente, los contratistas, deben recibir la educación y la formación en toma de conciancia apropiadas  y actualizaciones regulares sobre las políticas y procedimientos de la organización pertinentes para su cargo.",
+      "7.2.3) Se debe contar con un proceso formal, el cual debe ser comunicado para emprender acciones contra empleados que hayan cometido una violación a la seguridad de la información.",
+      "7.3.1) Las responsabilidades y los deberes de seguridad de la información que permnecen válidos despues de la terminación o cambio de empleo se deben definir, comunicar al empleado, contratistas y se deben hacer cumplir."
+    ],
+    "conclusions": {
+      "De acuerdo con sus respuestas, tu empresa NO CUMPLE con los requisitos.": 6.99,
+      "De acuerdo con sus respuestas, tu empresa SI CUMPLE con los requisitos": 9.0
+    },
+    "sections": [
+      [
+        "5) Políticas de Seguridad de la Información.",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "6) Organización de Seguridad de Información.",
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        "7) Seguridad de los recursos humanos.",
+        [
+          9,
+          14
+        ]
+      ]
+    ]
+  }
+}

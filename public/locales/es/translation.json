@@ -1,0 +1,57 @@
+{
+  "listMenu": {
+    "home": "Inicio",
+    "takeEval": "Tomar evaluación",
+    "whoWeAre": "¿Quienes somos?"
+  },
+  "mainPage" : {
+    "mainTitle" : "Evalua tu empresa",
+    "mainText" : "Con esta prueba pordrá realizar un análisis de brechas GAP del estandar 'ISO/IEC 27001 - 27002:2013'. Para evaluar las diferencias de rendimiento entre los sistemas de información de su empresa y las aplicaciones de software. Y con esto determinar si cumple con los requisitos del negocio.",
+    "startEvaluationButtonTitle" : "Empezar test"
+  }, 
+  "evaluate": {
+    "firstStep": {
+      "iconTitle": "LLenar formulario",
+      "questionnaire": {
+        "introduction": "Por favor conteste las preguntas que se muestran a continuación. Estas preguntas se encuentran numeradas según el estandar 'ISO/IEC 27001 - 27002:2013':"
+      },
+      "confirmDialog": {
+        "title": "Confirmación",
+        "content": "¿Está seguro que desea continuar?. Si lo hace los datos ingresados serán borrados",
+        "cancelButtonTitle": "Cancelar",
+        "continueButtonTitle": "Continuar"
+      }
+    },
+    "secondStep": {
+      "iconTitle": "Visualizar resultados",
+      "result": {
+        "introduction": "De acuerdo a las respuestas seleccionadas su resultado es de:"
+      }
+    },
+    "thirdStep": {
+      "iconTitle": "Generar reporte",
+      "report": {
+        "form": {
+          "enterpriseName" : {
+            "label" : "Nombre de la empresa"
+          },
+          "email" : {
+            "label" : "Correo",
+            "notValid" : "El correo no es válido."
+          },
+          "requiredFieldLabel" : "Este campo es obligatorio.",
+          "sendReportButtonTitle" : "Enviar reporte",
+          "wasSentSuccessful" : "Reporte enviado a ",
+          "cannotSendReport" : "No fue posible enviar el reporte, por favor intentelo nuevamente"
+        }
+      }
+    },
+    "finalStep": {
+      "finishingText": "Haz terminado la evaluación. Gracias por tu tiempo",
+      "repeatTestButtonTitle": "Realizar otra evaluación"
+    },
+    "backButtonTitle": "Atrás",
+    "nextButtonTitle": "Siguiente",
+    "finishButtonTitle": "Finalizar"
+  }
+}

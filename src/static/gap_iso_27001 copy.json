@@ -1,0 +1,380 @@
+{
+  "en": {
+    "options": {
+      "Not applicable.": 0.0,
+      "Not done.": 1.0,
+      "It is done partially and informally.": 3.0,
+      "It is done informally in a total way.": 5.0,
+      "It is formally done and documented.": 7.0,
+      "Documented and subject to periodic review.": 9.0
+    },
+    "critera": [
+      "5.1.1) A set of information security policies must be defined, approved by management, published and communicated to employees and relevant external parties.",
+      "5.1.2) Information security policies should be reviewed at planned intervals, or if significant changes occur, to ensure their continuing suitability, adequacy and effectiveness.",
+      "6.1.1) All information security responsibilities must be defined and assigned.",
+      "6.1.2) Conflicting duties and areas of responsibility shall be separated to reduce the chances of unauthorized or unintentional modification or misuse of organizational assets.",
+      "6.1.3) Appropriate contacts must be maintained with the relevant authorities.",
+      "6.1.4) Appropriate contacts should be maintained with special interest groups or other forums and professional associations specializing in security.",
+      "6.1.5) Information security should be addressed in project management, regardless of the type of project.",
+      "6.2.1) A policy and supporting security measures must be adopted to manage the risks introduced by the use of mobile devices.",
+      "6.2.2) A policy and support security measures must be implemented to protect the information that is accessed, processed or stored in the places where telework is carried out.",
+      "7.1.1) Background checks on all job applicants must be conducted in accordance with applicable laws, regulations and ethics and must be commensurate with business requirements, the classification of information to be will have access and the perceived risks.",
+      "7.1.2) Contractual agreements with employees and contractors must establish their responsibilities and those of the organization regarding information security.",
+      "7.2.1) Management must require all employees and contractors to apply information security in accordance with the policies and procedures established by the organization.",
+      "7.2.2) All employees of the organization and where relevant, contractors, should receive appropriate awareness education and training and regular updates on the organization's policies and procedures relevant to their position.",
+      "7.2.3) There must be a formal process, which must be communicated, to take action against employees who have committed an information security breach.",
+      "7.3.1) Information security responsibilities and duties that remain valid after termination or change of employment should be defined, communicated to the employee, contractors and enforced.",
+      "8.1.1) Assets associated with information and information processing facilities must be identified and an inventory of these assets must be developed and maintained.",
+      "8.1.2) Assets held in inventory must have an owner.",
+      "8.1.3) Rules for the acceptable use of information and assets associated with information and information processing facilities must be identified, documented and implemented.",
+      "8.1.4) All employees and users of external parties must return all assets of the organization that are in their charge, at the end of their employment, contract or agreement.",
+      "8.2.1) The information must be classified according to legal requirements, critical value and susceptibility to disclosure or unauthorized modification.",
+      "8.2.2) An adequate set of procedures for information labeling must be developed and implemented, in accordance with the information classification scheme adopted by the organization.",
+      "8.2.3) Procedures for asset management must be developed and implemented, in accordance with the information classification scheme adopted by the organization.",
+      "8.3.1) Procedures must be implemented for the management of removable media in accordance with the classification scheme adopted by the organization.",
+      "8.3.2) The means must be safely disposed of when they are no longer required, using formal procedures.",
+      "8.3.3) Media containing information must be protected against unauthorized access, misuse or corruption during transport.",
+      "9.1.1) An access control policy must be established, documented and reviewed based on business and information security requirements.",
+      "9.1.2) Users should only be allowed access to the network and network services for which they have been specifically authorized.",
+      "9.2.1) A formal user registration and cancellation process must be implemented to enable the assignment of access rights.",
+      "9.2.2) A formal user access provisioning process shall be in place to assign or revoke access rights for all types of users for all systems and services.",
+      "9.2.3) The assignment and use of privileged access rights must be restricted and controlled.",
+      "9.2.4) The allocation of secret authentication information should be controlled through a formal management process.",
+      "9.2.5) Asset owners should review user access rights at regular intervals.",
+      "9.2.6) The access rights of all employees and external users to information and information processing facilities must be withdrawn at the end of their employment, contract or agreement, or adjusted when changes are made.",
+      "9.3.1) Users should be required to comply with the organization's practices for the use of secret authentication information.",
+      "9.4.1) Access to information and application system functions should be restricted in accordance with the access control policy.",
+      "9.4.2) When required by the access control policy, access to systems and applications must be controlled through a secure login process.",
+      "9.4.3) Password management systems must be interactive and must ensure the quality of passwords.",
+      "9.4.4) Use of utility programs that could have the ability to override system and application controls should be strictly restricted and controlled.",
+      "9.4.5) Access to program source codes should be restricted.",
+      "10.1.1) A policy on the use of cryptographic controls for the protection of information must be developed and implemented.",
+      "10.1.2) A policy must be developed and implemented on the use and protection and lifetime of cryptographic keys throughout their life cycle.",
+      "11.1.1) A security perimeter (barriers such as walls, card-controlled access doors or a reception) must be defined to protect areas containing information or processing facilities.",
+      "11.1.2) Secure areas must be protected by appropriate entry controls to ensure that only authorized personnel can access.",
+      "11.1.3) Physical security for offices, rooms and facilities must be designed and applied.",
+      "11.1.4) Physical protection against damage caused by fire, floods. Earthquakes, explosions, social disturbances and other forms of natural or man-made disasters should be designed and applied.",
+      "11.1.5) Physical protection and guidelines for working in safe areas must be designed and applied.",
+      "11.1.6) Access points such as loading and dispatch areas or other points that could allow access to unauthorized persons must be controlled and, if possible, isolated from the information processing facilities to prevent unauthorized access. ",
+      "11.2.1) The equipment must be located or protected to reduce the risks caused by environmental threats and dangers, and opportunities for unauthorized access.",
+      "11.2.2) The equipment must be protected from interruptions in the energy supply and other interruptions caused by failures in the support tools.",
+      "11.2.3) The energy and telecommunications wiring that transports data or supports services must be protected from interventions or damage.",
+      "11.2.4) The equipment must be properly maintained to ensure its continued availability and integrity.",
+      "11.2.5) Equipment, information or software must not be removed from the site without prior authorization.",
+      "11.2.6) Security measures must be applied to assets that are outside the organization's facilities, taking into account the different risks of working outside said facilities.",
+      "11.2.7) All items of equipment containing storage media must be checked to ensure that any confidential data or licensed software has been securely removed or overwritten prior to disposal or reuse.",
+      "11.2.8) Users must ensure that unattended equipment is given appropriate protection.",
+      "11.2.9) A clean desk policy should be adopted for paper and removable storage media, and a clean screen policy in information processing facilities.",
+      "12.1.1) The operating procedures must be documented and made available to all users who need them.",
+      "12.1.2) Changes in the organization in business processes, in facilities and in information processing systems that affect information security must be controlled.",
+      "12.1.3) The use of resources must be monitored, adjustments made and projections of future capacity requirements made, to ensure the required performance of the system.",
+      "12.1.4) The development, test and operation environments must be separated to reduce the risks of unauthorized access or changes to the operating environment.",
+      "12.2.1) Detection, prevention, and recovery controls combined with appropriate user awareness should be implemented to protect against malicious code.",
+      "12.3.1) Backup copies of the information, software or images of the systems must be made and tested regularly in accordance with the agreed backup policy.",
+      "12.4.1) Records about user activities, exceptions, failures and information security events must be created, kept and regularly reviewed.",
+      "12.4.2) Installations and registration information must be protected against alteration and unauthorized access.",
+      "12.4.3) The activities of the system administrator and operator must be recorded and the records must be protected and regularly reviewed.",
+      "12.4.4) The clocks of all relevant information processing systems within the organization or security domain shall be synchronized with a single source of time reference.",
+      "12.5.1) Procedures must be implemented to control the installation of software on operating systems.",
+      "12.6.1) Information must be obtained about the technical vulnerabilities of the information systems used, the organization's exposure to these vulnerabilities must be evaluated and appropriate measures must be taken to deal with the associated risk.",
+      "12.6.2) The rules for the installation of software by users must be established and implemented.",
+      "12.7.1) Audit requirements and activities involving verification of operating systems must be carefully planned and agreed to minimize disruptions to business processes.",
+      "13.1.1) Networks must be managed and controlled to protect information in systems and applications.",
+      "13.1.2) Security mechanisms, service levels and management requirements for all network services should be identified and included in network service agreements, whether services are provided internally or outsourced .",
+      "13.1.3) The groups of information services, users and information systems must be separated in the networks.",
+      "13.2.1) Formal information transfer policies, procedures and controls must be in place to protect the transfer of information through the use of all types of communications facilities.",
+      "13.2.2) Agreements must address the secure transfer of business information between the organization and external parties.",
+      "13.2.3) The information included in electronic messaging must be adequately protected.",
+      "13.2.4) Requirements for confidentiality or non-disclosure agreements that reflect the organization's needs for information protection shall be regularly identified, reviewed and documented.",
+      "14.1.1) Requirements related to information security must be included in the requirements for new information systems or improvements to existing information systems.",
+      "14.1.3) Information involved in application services passing over public networks must be protected from fraudulent activities, contractual disputes, and unauthorized disclosure and modification.",
+      "14.2.1) Rules for the development of software and systems must be established and applied to developments within the organization.",
+      "14.2.2) Changes to systems within the development lifecycle shall be controlled through the use of formal change control procedures.",
+      "14.2.3) When operating platforms are changed, critical business applications must be reviewed and tested to ensure that there is no adverse impact on the organization's operations or security.",
+      "14.2.4) Modifications to software packages should be discouraged and should be limited to necessary changes and all changes should be strictly controlled.",
+      "14.2.5) Principles for the construction of secure systems must be established, documented and maintained and applied to any information system implementation activity.",
+      "14.2.6) Organizations must adequately establish and protect secure development environments for systems development and integration activities that encompass the entire systems development life cycle.",
+      "14.2.7) The organization must supervise and monitor the development activity of externally contracted systems.",
+      "14.2.8) Security functionality tests must be carried out during development.",
+      "14.2.9) For new information systems and updates and new versions, acceptance test programs and related acceptance criteria must be established.",
+      "14.3.1) Test data must be carefully selected, protected and controlled.",
+      "15.1.1) The information security requirements to mitigate the risks associated with supplier access to the organization's assets must be agreed between them and must be documented.",
+      "15.1.2) All relevant information security requirements must be established and agreed with each supplier that may access, process, store, communicate or supply IT infrastructure components for the organization's information.",
+      "15.1.3) Agreements with suppliers must include requirements to address information security risks associated with the supply chain of information and communication technology products and services.",
+      "15.2.1) The organization must regularly monitor, review and audit the service provided by suppliers.",
+      "15.2.2) Changes in the provision of services by providers must be managed, including the maintenance and improvement of existing information security policies, procedures and controls, taking into account the criticality of the information, systems and business processes involved and the reassessment of risks."
+    ],
+    "conclusions": {
+      "Does not accomplish": 6.9999,
+      "Accomplish": 9.0
+    },
+    "sections": [
+      [
+        "5) Information Security Policies.",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "6) Information Security Organization.",
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        "7) Security of human resources.",
+        [
+          9,
+          14
+        ]
+      ],
+      [
+        "8) Asset Management.",
+        [
+          15,
+          24
+        ]
+      ],
+      [
+        "9) Access Control.",
+        [
+          25,
+          38
+        ]
+      ],
+      [
+        "10) Cryptography.",
+        [
+          39,
+          40
+        ]
+      ],
+      [
+        "11) Physical and environmental security.",
+        [
+          41,
+          55
+        ]
+      ],
+      [
+        "12) Safety in operations.",
+        [
+          56,
+          69
+        ]
+      ],
+      [
+        "13) Communications security.",
+        [
+          70,
+          76
+        ]
+      ],
+      [
+        "14) Acquisition, development and maintenance of systems.",
+        [
+          77,
+          89
+        ]
+      ],
+      [
+        "15) Supplier relations.",
+        [
+          89,
+          94
+        ]
+      ]
+    ]
+  },
+  "es": {
+    "options": {
+      "No aplica.": 0.0,
+      "No se realiza.": 1.0,
+      "Se realiza parcial e informalmente.": 3.0,
+      "Se realiza informalmente en forma total.": 5.0,
+      "Se realiza formalmente y está documentado.": 7.0,
+      "Documentado y sujeto a revisión periódica.": 9.0
+    },
+    "criteria": [
+      "5.1.1) Se debe definir un conjunto de políticas para la seguridad de la información, aprobada por la dirección, publicada y comunicada a los empleados y a las partes externas pertinentes.",
+      "5.1.2) Las políticas para la seguridad de la información se deben revisar a intervalos planificados, o si ocurren cambios significativos para asegurar su conveniencia, adecuación y eficacia continuas.",
+      "6.1.1) Se deben definir y asignar todas las responsabilidades de la seguridad de la información.",
+      "6.1.2) Los deberes y áreas de responsabilidad en conflicto se deben separar para reducir las posibilidades de modificación no autorizada o no intencional, o el uso indebido de los activos de la organización.",
+      "6.1.3) Se deben mantener contactos apropiados con las autoridades pertinentes.",
+      "6.1.4) Se deben mantener contactos apropiados con grupos de interés especial u otros foros y asociaciones profesionales especializadas en seguridad.",
+      "6.1.5) La seguridad de la información se debe tratar en la gestión de proyectos, independientemente del tipo de proyecto.",
+      "6.2.1) Se debe adoptar una política y unas medidas de seguridad de soporte para gestionar los riesgos introducidos por el uso de dispositivos móviles.",
+      "6.2.2) Se deben implementar una política y unas medidas de seguridad de soporte, para proteger la información a la que se tiene acceso, que es procesada o almacenada en los lugares en los que se realiza el teletrabajo.",
+      "7.1.1) Las verificaciones de los antecedentes de todos los candidatos a un empleo se deben llevar a cabo de acuerdo con las leyes, reglamentaciones y ética pertinentes y deben ser proporcionales a los requisitos del negocio, a la clasificación de la información a que se va a tener acceso y a los riesgos percibidos.",
+      "7.1.2) Los acuerdos contractuales con empleados y contratistas deben establecer sus responsabilidades y las de la organización en cuanto a la seguridad de la información.",
+      "7.2.1) La dirección debe exigir a todos los empleados y contratistas la aplicación de la seguridad de la información de acuerdo con las políticas y procedimientos establecidos por la organización.",
+      "7.2.2) Todos los empleados de la organización y en donde sea pertinente, los contratistas, deben recibir la educación y la formación en toma de conciancia apropiadas  y actualizaciones regulares sobre las políticas y procedimientos de la organización pertinentes para su cargo.",
+      "7.2.3) Se debe contar con un proceso formal, el cual debe ser comunicado para emprender acciones contra empleados que hayan cometido una violación a la seguridad de la información.",
+      "7.3.1) Las responsabilidades y los deberes de seguridad de la información que permnecen válidos despues de la terminación o cambio de empleo se deben definir, comunicar al empleado, contratistas y se deben hacer cumplir.",
+      "8.1.1) Se deben identificar los activos asociados con información e instalaciones de procesamiento de información y se debe elaborar y mantener un inventario de estos activos.",
+      "8.1.2) Los activos mantenidos en el inventario deben tener un propietario.",
+      "8.1.3) Se deben identificar, documentar e implementar reglas para el uso aceptable de información y de activos asociados con información e instalaciones de procesamiento de información.",
+      "8.1.4) Todos los empleados y usuarios de partes externas deben devolver todos los activos de la organización que se encuentren a su cargo, al terminar su empleo, contrato o acuerdo.",
+      "8.2.1) La información se debe clasificar en función de los requisitos legales, valor criticidad y susceptibilidad a divulgación o a modificación no autorizada.",
+      "8.2.2) Se debe desarrollar e implementar un conjunto adecuado de procedimientos para el etiquetado de la información, de acuerdo con el esquema de clasificación de información adoptado por la organización.",
+      "8.2.3) Se deben desarrollar e implementar procedimientos para el manejo de activos, de acuerdo con el esquema de clasificación de información adoptado por la organización.",
+      "8.3.1) Se deben implementar procedimientos para la gestión de medios removibles de acuerdo con el esquema de clasificación adoptado por la organización.",
+      "8.3.2) Se debe disponer en forma segura de los medios cuando ya no se requieran, utilizando procedimientos formales.",
+      "8.3.3) Los medios que contienen información se deben proteger contra acceso no autorizado, uso indebido o corrupción durante el transporte.",
+      "9.1.1) Se debe establecer, documentar y revisar una política de control de acceso con base en los requisitos del negocio y de seguridad de la información.",
+      "9.1.2) Sólo se debe permitir acceso de los usuarios a la red y a los servicios de red para los que hayan sido autorizados específicamente.",
+      "9.2.1) Se debe implementar un proceso formal de registro y cancelación de resgitro de usuarios, para posibilitar la asignación de derechos de acceso.",
+      "9.2.2) Se debe implementar un proceso de suministro de acceso formal de usuarios para asignar o revocar los derechos de acceso para todo tipo de usuarios para todos los sistemas y servicios.",
+      "9.2.3) Se debe restringir y contrlar la asignación y uso de derechos de acceso privilegiado.",
+      "9.2.4) La asignación de información de autenticación secreta, se debe controlar mediante un proceso de gestión formal.",
+      "9.2.5) Los propietarios de los activos debn revisar los derechos de acceso de los usuarios a intervalos regulares.",
+      "9.2.6) Los derechos de acceso de todos los empleados y de usuarios externos a la información y a las instalaciones de procesamiento de información se deben retirar al terminar su empleo, contrato o acuerdo, o se deben ajustar cuando se hagan cambios.",
+      "9.3.1) Se debe exigir a los usuarios que cumplan con las prácticas de la organización para el uso de información de autenticación secreta.",
+      "9.4.1) El acceso a la información y a las funciones de los sistemas de las aplicaciones se debe restringir de acuerdo con la política de control de acceso.",
+      "9.4.2) Cuando lo requiere la política de control de acceso, el aceso a sistemas y aplicaciones se debe controlar mediante un proceso de ingreso seguro.",
+      "9.4.3) Los sistemas de gestión de contraseñas deben ser interactivos y deben asegurar la calidad de las contraseñas.",
+      "9.4.4) Se debe restringir y controlar estrictamente el uso de programas utlitarios que podrían tener la capacidad de anular el sistema y los controles de las aplicaciones.",
+      "9.4.5) Se debe restringir el acceso a los códigos fuente de los programas.",
+      "10.1.1) Se debe desarrollar e implementar una política sobre el uso de controles criptográficos para la protección de la información.",
+      "10.1.2) Se debe desarrollar e implementar una política sobre el uso y protección y tiempo de vida de las llaves croiptográficas durante todo su ciclo de vida.",
+      "11.1.1) Un perímetro de seguridad (barreras como muros, puertas de acceso controladas con tarjeta o una recepción) debe ser definido para proteger áreas que contengan información o instalaciones de procesamiento.",
+      "11.1.2) Las áreas seguras deben estar protegidas por controles de ingreso apropiados para asegurar que sólo el personal autorizado podrá acceder.",
+      "11.1.3) Seguridad física para oficinas, salas e instalaciones debe ser diseñada y aplicad.",
+      "11.1.4) Protección física contra daño producido por fuego, inundaciones. Terremotos, explosiones, desordenes sociales y otras formas de desastres naturales o producidos por el hombre deben ser diseñados y aplicados.",
+      "11.1.5) Protección física y guías para trabajar en áreas seguras deben ser diseñadas y aplicadas.",
+      "11.1.6) Puntos de acceso tales como áreas de carga y despacho u otros puntos que podrían permitir el acceso a personas no autorizadas deben ser controlados y, si es posible, aislados de las instalaciones de procesamiento de información para evitar accesos no autorizados.",
+      "11.2.1) El equipamiento debe ser ubicado o protegido para reducir los riesgos producidos por  amenazas y peligros ambientales, y oportunidades de acceso no autorizado.",
+      "11.2.2) El equipamiento debe ser protegido de interrupciones en el suministro de energía y otras interrupciones producidas por fallas en las herramientas de apoyo.",
+      "11.2.3) El cableado de energía y telecomunicaciones que transporte datos o soporte servicios debe ser protegido de intervenciones o daño.",
+      "11.2.4) El equipamiento debe ser correctamente mantenido para asegurar la continuidad de su disponibilidad e integridad.",
+      "11.2.5) Los equipos, información o software no se deben retirar del sitio sin autorización previa.",
+      "11.2.6) Se deben aplicar medidas de seguridad a los activos que se encuentren fuera de las instalaciones de la organización, teniendo en cuenta los diferentes riesgos de trabajar fuera de dichas instalaciones.",
+      "11.2.7) Se deben verificar todos los elementos de equipos que contengasn medios de almacenamiento para asegurar que cualquier dato confidencial o software licenciado haya sido retirado o sobreescrito en forma segura antes de su disposición o reuso.",
+      "11.2.8) Los usuarios deben asegurarse de que los equipos desatendidos se les de una protección apropiada.",
+      "11.2.9) Se debe adoptar una política de escritorio limpio para los papeles y medios de almacenamiento removibles, y una política de pantalla limpia en las instalaciones de procesamiento de información.",
+      "12.1.1) Los procedimientos de operación se deben documentar y poner a disposición de todos los usuarios que los necesitan.",
+      "12.1.2) Se deben controlar los cambios en la organización en los procesos de negocio, en las instalaciones y en los sistemas de proesamiento de información que afectan la seguridad de la información.",
+      "12.1.3) Se debe hacer seguimiento al uso de recursos, hacer los ajustes y hacer proyecciones de los requisitos de capacidad futuras, para asegurar el desempeño requerido del sistema.",
+      "12.1.4) Se deben separar los ambientes de desarrollo, prueba y operación para reducir los riesgos de acceso o cambios no autorizados al ambiente de operación.",
+      "12.2.1) Se deben implementar controles de detección, de prevención y de recuperación combinados con la toma de conciencia apropiada de los usuarios para proteger contra códigos maliciosos.",
+      "12.3.1) Se deben hacer copias de respaldo de la información, software o imágenes de los sistemas y ponerlas a prueba regularmente de acuerdo con la política de copias de respaldo acordadas.",
+      "12.4.1) Se deben elaborar, conservar y revisar regularmente los registros acerca de las actividades del usuario, excepciones, fallas y eventos de seguridad de la información.",
+      "12.4.2) Las instalaciones y la información de registro se deben proteger contra alteración y acceso no autorizado.",
+      "12.4.3) Las actividades del administrador y del operador del sistema se deben registrar y los registros se deben proteger y revisar con regularidad.",
+      "12.4.4) Los relojes de todos los sistemas de procesamiento de información pertinentes dentro de la organización o ámbito de seguridad se deben sincronizar con una única fuente de referencia de tiempo.",
+      "12.5.1) Se deben implementar procedimientos para controlar la instalación de software en sistemas operativos.",
+      "12.6.1) Se debe obtener información acerca de las vulnerabilidades técnicas de los sistemas de información que se usen, evalur la exposición de la organización a estas vulnerabilidades y tomar las medidas apropiadas para tratar el riesgo asociado.",
+      "12.6.2) Se debe establecer e implementar las reglas para la instalación de software por parte de los usuarios.",
+      "12.7.1) Los requisitos y actividades de auditoria que involucran la verificación de los sistemas operativos se deben planificar y acordar cuidadosamente para minimizar las interrupciones en los procesos de negocio.",
+      "13.1.1) Las redes se deben gestionar y controlar para proteger la información en sistemas y aplicaciones.",
+      "13.1.2) Se deben identificar los mecanismos de seguridad, los niveles de servicio y los requisitos de gestión de todos los servicios de red e incluirlos en los acuerdos de servicio de red, ya sea que los servicios se presnten internamente o se contraten externamente.",
+      "13.1.3) Los grupos de servicios de información, usuarios y sistemas de información se deben separar en las redes.",
+      "13.2.1) Se debe contar con política, procedimientos y controles de transferencia de información formales para proteger la transferencia de información mediante el uso de todo tipo de instalaciones de comunicaciones.",
+      "13.2.2) Los acuerdos deben tratar la transferencia segura de la información del negocio entre la organización y las partes externas.",
+      "13.2.3) Se debe proteger adecuadamente la información incluida en la mensajería electrónica.",
+      "13.2.4) Se deben identificar, revisar y documentar regularmente los requisitos para acuerdos de confidencialidad o no divulgación que reflejen necesidades de la organización para la protección de la información.",
+      "14.1.1) Los requisitos relacionados con seguridad de la información se deben incluir en los requisitos para nuevos sistemas de información o para mejoras a los sistemas de información existentes.",
+      "14.1.3) La información involucrada en los servicios de las aplicaciones que pasan sobre redes públicas se deben proteger de actividades fraudulentas, disputas contractuales y divulgación y modificación no autorizadas.",
+      "14.2.1) Se deben establecer y aplicar reglas para el desarrollo de software y de sistemas, a los desarrollos dentro de la organización.",
+      "14.2.2) Los cambios a los sistemas dentro del ciclo de vida de desaroollo se deben controlar mediante el uso de procedimientos formales de control de cambios.",
+      "14.2.3) Cuando se cambian plataformas de operación se deben revisar las aplicaciones críticas del negocio y someter a prueba para asegurar que no haya impacto adverso en las operaciones o seguridad de la organización.",
+      "14.2.4) Se deben desalentar las modificaciones a los paquetes de software los cuales se deben limitar a los cambios necesarios y todos los cambios se deben controlar estrictamente.",
+      "14.2.5) Se deben establecer, documentar y mantener principios para la construcción de sistemas seguros y aplicarlos a cualquier actividad de implementación de sistemas de información.",
+      "14.2.6) Las organizaciones deben establecer y proteger adecuadamente los ambientes de desarrollo seguros para las actividades de desarrollo e integración de sistemas que comprendan todo el ciclo de vida de desarrollo de sistemas.",
+      "14.2.7) La organización debe supervisar y hacer seguimiento de la actividad de desarrollo de sistemas contratados externamente.",
+      "14.2.8) Durante el desarrollo se deben llevar a cabo pruebas de funcionalidad de la seguridad.",
+      "14.2.9) Para los sistemas de información nuevos y actualizaciones y nuevas versiones se deben establecer programas de prueba para la aceptación y criterios de aceptación relacionados.",
+      "14.3.1) Los datos de prueba se deben seleccionar, proteger y controlar cuidadosamente.",
+      "15.1.1) Los requisitos de seguridad de la información para mitigar los riesgos asociados con el acceso de proveedores a los activos de la organización se deben acordar entre éstos y se deben documentar.",
+      "15.1.2) Se deben establecer y acordar todos los requisitos de seguridad de la información pertientes con cada proveedor que pueda tener acceso, procesar, almacenar, comunicar o suministrar componentes de infraestructura de TI para la información de la organización.",
+      "15.1.3) Los acuerdos con proveedores deben incluir requisitos para tratar los riesgos de seguridad de la información asociados con la cadena de suministro de productos y servicios de tecnología de información y de comunicación.",
+      "15.2.1) La organización debe hacer seguimiento, revisar y auditar con regularidad la prestación del servicio de los proveedores.",
+      "15.2.2) Se deben gestionar los cambios en el suministro de servicios por parte de los proveedores incluido el mantenimiento y la mejora de las políticas, procedimientos y controles de seguridad de la información existentes, teniendo en cuenta la criticidad de la información, sistemas y procesos del negocio involucrados y la reevaluación de los riesgos."
+    ],
+    "conclusions": {
+      "No cumple": 6.9999,
+      "Si cumple": 9.0
+    },
+    "sections": [
+      [
+        "5) Políticas de Seguridad de la Información.",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "6) Organización de Seguridad de Información.",
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        "7) Seguridad de los recursos humanos.",
+        [
+          9,
+          14
+        ]
+      ],
+      [
+        "8) Gestión de Activos.",
+        [
+          15,
+          24
+        ]
+      ],
+      [
+        "9) Control de Acceso.",
+        [
+          25,
+          38
+        ]
+      ],
+      [
+        "10) Criptografía.",
+        [
+          39,
+          40
+        ]
+      ],
+      [
+        "11) Seguridad Física y del entorno.",
+        [
+          41,
+          55
+        ]
+      ],
+      [
+        "12) Seguridad en las operaciones.",
+        [
+          56,
+          69
+        ]
+      ],
+      [
+        "13) Seguridad de las comunicaciones.",
+        [
+          70,
+          76
+        ]
+      ],
+      [
+        "14) Adquisición, desarrollo y mantenimiento de sistemas.",
+        [
+          77,
+          88
+        ]
+      ],
+      [
+        "15) Relación con proveedores.",
+        [
+          89,
+          94
+        ]
+      ]
+    ]
+  }
+}

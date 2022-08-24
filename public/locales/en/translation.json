@@ -1,0 +1,57 @@
+{
+  "listMenu": {
+    "home": "Home",
+    "takeEval": "Take test",
+    "whoWeAre": "¿Who we are?"
+  },
+  "mainPage" : {
+    "mainTitle" : "Evaluate your company",
+    "mainText" : "With this test you will be able to carry out a GAP analysis of the 'ISO/IEC 27001 - 27002:2013' standard. To evaluate the differences in performance between your company's information systems and software applications. And with this determine if you meet the business requirements.",
+    "startEvaluationButtonTitle" : "Start test"
+  }, 
+  "evaluate": {
+    "firstStep": {
+      "iconTitle": "Fill form",
+      "questionnaire": {
+        "introduction": "Please answer the below given questions. These questions are numbered according to the 'ISO/IEC 27001 - 27002:2013' standard:"
+      },
+      "confirmDialog": {
+        "title": "Confirm",
+        "content": "Are you sure you want to continue?. If you do it, the data entered will be deleted.",
+        "cancelButtonTitle": "Cancel",
+        "continueButtonTitle": "Continue"
+      }
+    },
+    "secondStep": {
+      "iconTitle": "View results",
+      "result": {
+        "introduction": "According to the selected responses, your result is:"
+      }
+    },
+    "thirdStep": {
+      "iconTitle": "Generate report",
+      "report": {
+        "form": {
+          "enterpriseName" : {
+            "label" : "Company name"
+          },
+          "email" : {
+            "label" : "Email",
+            "notValid" : "Email is not valid."
+          },
+          "requiredFieldLabel" : "This field is required.",
+          "sendReportButtonTitle" : "Send report",
+          "wasSentSuccessful" : "Report sent to ",
+          "cannotSendReport" : "Report could not be sent, please try again."
+        }
+      }
+    },
+    "finalStep": {
+      "finishingText": "You have finished the test. Thanks for your time.",
+      "repeatTestButtonTitle": "Take another test"
+    },
+    "backButtonTitle": "Back",
+    "nextButtonTitle": "Next",
+    "finishButtonTitle": "Finish"
+  }
+}
