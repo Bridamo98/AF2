@@ -39,7 +39,7 @@ const Navbar = (props) => {
                     <MenuIcon />
                 </IconButton>
                 <Typography variant="h6" className={classes.title}>
-                    Anti Fraude
+                    Security Test
                 </Typography>
                 <Select
                     value={props.language}

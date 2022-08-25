@@ -6,7 +6,7 @@
   },
   "mainPage" : {
     "mainTitle" : "Evalua tu empresa",
-    "mainText" : "Con esta prueba pordrá realizar un análisis de brechas GAP del estandar 'ISO/IEC 27001 - 27002:2013'. Para evaluar las diferencias de rendimiento entre los sistemas de información de su empresa y las aplicaciones de software. Y con esto determinar si cumple con los requisitos del negocio.",
+    "mainText" : "Con esta prueba pordrá realizar un análisis de brechas GAP del estandar 'ISO/IEC 27001 - 27002:2013'. Para evaluar las diferencias de rendimiento entre los sistemas de información de su empresa y las aplicaciones de software. Y con esto determinar si cumple con los requisitos del negocio. Al final de la prueba podrá generar un RESUMEN DEL INFORME que se enviará por EMAIL.",
     "startEvaluationButtonTitle" : "Empezar test"
   }, 
   "evaluate": {

@@ -38,15 +38,15 @@ const ListMenu = ( ) => {
                 </ListItemText>
             </ListItem>
             <Divider />
-            <ListItem button component={Link} to="/About">
+            {/* <ListItem button component={Link} to="/About">
                 <ListItemIcon>
                     <HelpOutlineIcon />
                 </ListItemIcon>
                 <ListItemText>
                 {t("listMenu.whoWeAre")}
                 </ListItemText>
-            </ListItem>
-            <Divider />
+                </ListItem>
+                <Divider />*/}
         </List>
     )
 }
