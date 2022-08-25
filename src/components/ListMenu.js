@@ -10,7 +10,7 @@ import {
 import { Link } from 'react-router-dom'
 
 import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn'
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline'
+//import HelpOutlineIcon from '@material-ui/icons/HelpOutline'
 import HomeIcon from '@material-ui/icons/Home'
 import { useTranslation } from 'react-i18next'
 
