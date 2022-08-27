@@ -13,7 +13,8 @@
     "firstStep": {
       "iconTitle": "LLenar formulario",
       "questionnaire": {
-        "introduction": "Por favor conteste las preguntas que se muestran a continuación. Estas preguntas se encuentran numeradas según el estandar 'ISO/IEC 27001 - 27002:2013':"
+        "introduction": "Por favor conteste las preguntas que se muestran a continuación. Estas preguntas se encuentran numeradas según el estandar 'ISO/IEC 27001 - 27002:2013':",
+        "note": "(Por practicidad, el test no contiene el total de las preguntas)"
       },
       "confirmDialog": {
         "title": "Confirmación",
@@ -25,6 +26,7 @@
     "secondStep": {
       "iconTitle": "Visualizar resultados",
       "result": {
+        "title": "Resultados",
         "introduction": "De acuerdo a las respuestas seleccionadas su resultado es de:"
       }
     },
@@ -32,6 +34,7 @@
       "iconTitle": "Generar reporte",
       "report": {
         "form": {
+          "title": "Genera un reporte personalizado",
           "enterpriseName" : {
             "label" : "Nombre de la empresa"
           },

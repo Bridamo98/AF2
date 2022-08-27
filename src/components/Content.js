@@ -10,7 +10,7 @@ import Home from './Home'
 import About from './About'
 import Evaluate from './Evaluate'
 
-import iso27001 from "../static/gap_iso_27001 copy.json"
+import iso27001 from "../static/gap_iso_27001.json"
 
 import { useTranslation } from 'react-i18next';
 

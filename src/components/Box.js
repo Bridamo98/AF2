@@ -12,13 +12,15 @@ const styles = makeStyles(theme => ({
         flexShrink: 0,
     },
     drawerPaper: {
-        width: 240
+        width: 240,
+        background: "#CCCCCC",
     },
     toolbar: theme.mixins.toolbar,
 }))
 
 const Box = (props) => {
     const classes = styles()
+    
 
     return (
         <Drawer

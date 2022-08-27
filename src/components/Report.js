@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, LinearProgress, makeStyles, TextField, Typography } from '@material-ui/core';
+import { Button, Card, CardContent, CardHeader, Grid, LinearProgress, makeStyles, TextField, Typography } from '@material-ui/core';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 
@@ -153,50 +153,58 @@ const Report = ({ criteria, scores, score, conclusion }) => {
   };
 
   return (
-    <form autoComplete="off" onSubmit={handleFormSubmit}>
-      {inputFieldValues.map((inputFieldValue, index) => {
-        return (
-          <TextField
-            key={index}
-            value={values[inputFieldValue.name]}
-            onChange={handleInputValue}
-            onBlur={handleInputValue}
-            name={inputFieldValue.name}
-            label={inputFieldValue.label}
-            error={errors[inputFieldValue.name]}
-            multiline={inputFieldValue.multiline ?? false}
-            fullWidth
-            rows={inputFieldValue.rows ?? 1}
-            autoComplete="none"
-            {...(errors[inputFieldValue.name] && {
-              error: true,
-              helperText: errors[inputFieldValue.name]
+    <Grid container justify="center" display='flex'>
+      <Card style={{ maxWidth: 800 }}>
+        <CardHeader title={t("evaluate.thirdStep.report.form.title")} />
+        <CardContent>
+          <form autoComplete="off" onSubmit={handleFormSubmit}>
+            {inputFieldValues.map((inputFieldValue, index) => {
+              return (
+                <TextField
+                  key={index}
+                  value={values[inputFieldValue.name]}
+                  onChange={handleInputValue}
+                  onBlur={handleInputValue}
+                  name={inputFieldValue.name}
+                  label={inputFieldValue.label}
+                  error={errors[inputFieldValue.name]}
+                  multiline={inputFieldValue.multiline ?? false}
+                  fullWidth
+                  rows={inputFieldValue.rows ?? 1}
+                  autoComplete="none"
+                  {...(errors[inputFieldValue.name] && {
+                    error: true,
+                    helperText: errors[inputFieldValue.name]
+                  })}
+                />
+              );
             })}
-          />
-        );
-      })}
-      <Button
-        variant="contained"
-        type="submit"
-        color="primary"
-        disabled={!formIsValid()}
-        className={classes.sendEmailBtn}
-      >
-        {t("evaluate.thirdStep.report.form.sendReportButtonTitle")}
-      </Button>
-      <br />
-      {values.formSubmitted ?
-        (values.success ?
-          <>
-            <Typography display="inline">{t("evaluate.thirdStep.report.form.wasSentSuccessful")}</Typography>
-            <Typography display="inline" className={classes.bold}>{enteredEmail}</Typography>
-          </>
-          : t("evaluate.thirdStep.report.form.cannotSendReport"))
-        : (values.submitting ?
-          <LinearProgress />
-          : null)
-      }
-    </form >
+            <Button
+              variant="contained"
+              type="submit"
+              color="primary"
+              disabled={!formIsValid()}
+              className={classes.sendEmailBtn}
+            >
+              {t("evaluate.thirdStep.report.form.sendReportButtonTitle")}
+            </Button>
+            <br />
+            {values.formSubmitted ?
+              (values.success ?
+                <>
+                  <Typography display="inline">{t("evaluate.thirdStep.report.form.wasSentSuccessful")}</Typography>
+                  <Typography display="inline" className={classes.bold}>{enteredEmail}</Typography>
+                </>
+                : t("evaluate.thirdStep.report.form.cannotSendReport"))
+              : (values.submitting ?
+                <LinearProgress />
+                : null)
+            }
+          </form >
+        </CardContent>
+      </Card>
+    </Grid>
+
   );
 };
 
