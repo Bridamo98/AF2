@@ -130,7 +130,7 @@ const Report = ({ criteria, scores, score, conclusion }) => {
         handleError();
         console.error('There was an error!', error);
       });*/
-      axios.post(`https://antifraude-back.herokuapp.com/sendReport`, { // /api/sendReport
+      axios.post(`https://af-back.onrender.com/sendReport`, { // /api/sendReport
         email: values.email,
         enterprise_name: values.enterpriseName,
         criteria: criteria,
